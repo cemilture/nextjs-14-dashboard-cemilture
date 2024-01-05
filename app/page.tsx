@@ -28,6 +28,22 @@ export default function Page() {
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
+          <p className="mt-2 text-center text-gray-500">
+            If you want to login and take a look: Email:user@nextmail.com
+            Password:123456
+          </p>
+          <p className="mt-2 text-center text-gray-500">
+            made by
+            <Link
+              className="font-bold"
+              href="https://www.linkedin.com/in/cemilture/"
+              target="_blank"
+            >
+              {' '}
+              cemilture
+            </Link>{' '}
+            with next js
+          </p>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
